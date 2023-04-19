@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Demo052023A.MainPage">
+
+    <StackLayout>
+        <Button Text="Click Para Girar"
+                x:Name="btnGirar"
+                Clicked="btnGirar_Clicked"
+                ></Button>
+        <Label Text="Mi Primer Label" 
+               x:Name="lblPrueba"
+               FontSize="Large"
+               TextColor="Red"
+               ></Label>
+        <DatePicker x:Name="dtpFechaNacimiento"
+                    MaximumDate="04/15/2023"
+                    MinimumDate="04/05/2023"                    
+                    ></DatePicker>
+        <Entry Placeholder="Entry"></Entry>
+        <Editor Placeholder="Editor" HeightRequest="150"></Editor>
+    </StackLayout>
+
+</ContentPage>

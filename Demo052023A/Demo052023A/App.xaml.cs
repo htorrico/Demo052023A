@@ -10,7 +10,8 @@ namespace Demo052023A
         {
             InitializeComponent();
 
-            MainPage = new EntryCode();
+            //MainPage = new EntryCode();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()

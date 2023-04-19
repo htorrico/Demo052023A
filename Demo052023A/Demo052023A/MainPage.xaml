@@ -19,6 +19,7 @@
                     ></DatePicker>
         <Entry Placeholder="Entry"></Entry>
         <Editor Placeholder="Editor" HeightRequest="150"></Editor>
+        <Image Source="miguelgrau.png"></Image>
     </StackLayout>
 
 </ContentPage>
